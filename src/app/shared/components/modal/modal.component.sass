@@ -1,0 +1,31 @@
+:host
+    position: absolute
+    width: calc( 100vw - 1rem * 2 )
+    height: calc( 100vh - 1rem * 2 )
+    top: 0
+    background-color: #1c252930
+    justify-content: center
+    align-items: center
+    display: flex
+    padding: 1rem
+
+.modal
+    background-color: #fff
+    min-width: 400px
+    border-radius: 4px
+    box-shadow: 0px 8px 40px 0px #00000012
+
+    .header
+        border-bottom: 1px solid #313e442e
+    
+    .header,
+    .body
+        padding: 0 1rem
+
+    .footer
+        display: flex
+        justify-content: flex-end
+        padding: 0 1rem 1rem
+
+        > .btn:not(:last-of-type)
+            margin-right: .5rem
